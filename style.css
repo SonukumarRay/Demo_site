@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 } */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 body{
-    font-family: popins;
+    font-family: 'Poppins';
 }
 nav ul li {
     display: inline;
@@ -40,7 +41,7 @@ nav{
 
 .card-section{
     /* margin: auto; */
-    margin: 100px 60px 60px 100px;
+    margin: 100px 30px 30px 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 60px;
@@ -51,7 +52,7 @@ nav{
     line-height: 2rem;
 }
 .card p{
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .card span a{
@@ -61,7 +62,8 @@ nav{
 
 .card-section h3{
     margin: 0 0 30px;
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: 700px;
 
 }
 
@@ -89,11 +91,28 @@ nav{
 }
 
 .text-content p{
-    font-size: 20px;
+    font-size: 17px;
 }
 .text-content span a{
     color: white;
 }
 .image{
     margin: 80px 40px 0 0;
+}
+
+
+.container-post{
+    background-color: #ddd;
+   
+}
+
+.blog-container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.socials{
+    text-align: center;
 }
